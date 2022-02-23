@@ -1,0 +1,582 @@
+[p LITE_MODE AUTOSTATIC LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4620 ]
+[d frameptr 4065 ]
+"464 C:\Users\Andrew\Desktop\xc8\sources\common\doprnt.c
+[v _printf printf `(i  1 e 2 0 ]
+"62 C:\Users\Andrew\Desktop\xc8\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Users\Andrew\Desktop\xc8\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 C:\Users\Andrew\Desktop\xc8\sources\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"4 C:\Users\Andrew\Desktop\xc8\sources\common\ftge.c
+[v ___ftge __ftge `(b  1 e 0 0 ]
+"62 C:\Users\Andrew\Desktop\xc8\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"20 C:\Users\Andrew\Desktop\xc8\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"8 C:\Users\Andrew\Desktop\xc8\sources\common\isdigit.c
+[v _isdigit isdigit `(b  1 e 0 0 ]
+"8 C:\Users\Andrew\Desktop\xc8\sources\common\lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"8 C:\Users\Andrew\Desktop\xc8\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"8 C:\Users\Andrew\Desktop\xc8\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"28 C:\Users\Andrew\Desktop\xc8\sources\common\lwtoft.c
+[v ___lwtoft __lwtoft `(f  1 e 3 0 ]
+"10 C:\Users\Andrew\Desktop\xc8\sources\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"11 C:\Users\Andrew\Desktop\xc8\sources\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"8 C:\Users\Andrew\Desktop\xc8\sources\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"15 C:\Users\Andrew\Desktop\xc8\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Users\Andrew\Desktop\xc8\sources\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"12 C:\Users\Andrew\Desktop\AER201\project.X\I2C.c
+[v _I2C_Master_Init I2C_Master_Init `(v  1 e 1 0 ]
+"23
+[v _I2C_Master_Wait I2C_Master_Wait `(v  1 e 1 0 ]
+"28
+[v _I2C_Master_Start I2C_Master_Start `(i  1 e 2 0 ]
+"40
+[v _I2C_Master_Stop I2C_Master_Stop `(v  1 e 1 0 ]
+"46
+[v _I2C_Master_Write I2C_Master_Write `(v  1 e 1 0 ]
+"52
+[v _I2C_Master_Read I2C_Master_Read `(uc  1 e 1 0 ]
+"14 C:\Users\Andrew\Desktop\AER201\project.X\lcd.c
+[v _initLCD initLCD `(v  1 e 1 0 ]
+"25
+[v _lcdInst lcdInst `(v  1 e 1 0 ]
+"30
+[v _putch putch `(v  1 e 1 0 ]
+"35
+[v _lcdNibble lcdNibble `(v  1 e 1 0 ]
+"20 C:\Users\Andrew\Desktop\AER201\project.X\main.c
+[v _set_time set_time `(v  1 e 1 0 ]
+"30
+[v _activate_stepper activate_stepper `(v  1 e 1 0 ]
+"43
+[v _rotate rotate `(v  1 e 1 0 ]
+"47
+[v _stop_rotate stop_rotate `(v  1 e 1 0 ]
+"51
+[v _agitator_move agitator_move `(v  1 e 1 0 ]
+"56
+[v _read_sensor read_sensor `(v  1 e 1 0 ]
+"87
+[v _poweroff_sensor poweroff_sensor `(v  1 e 1 0 ]
+"96
+[v _return_motors return_motors `(v  1 e 1 0 ]
+"122
+[v _timer_done timer_done `(v  1 e 1 0 ]
+"140
+[v _tca_select tca_select `(v  1 e 1 0 ]
+"147
+[v _check_B_press check_B_press `(uc  1 e 1 0 ]
+"256
+[v _main main `(v  1 e 1 0 ]
+"185 C:\Users\Andrew\Desktop\xc8\include\pic18f4620.h
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+[s S106 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"226
+[s S115 . 1 `uc 1 INT0 1 0 :1:0 
+`uc 1 INT1 1 0 :1:1 
+`uc 1 INT2 1 0 :1:2 
+`uc 1 CCP2 1 0 :1:3 
+`uc 1 KBI0 1 0 :1:4 
+`uc 1 KBI1 1 0 :1:5 
+`uc 1 KBI2 1 0 :1:6 
+`uc 1 KBI3 1 0 :1:7 
+]
+[s S124 . 1 `uc 1 AN12 1 0 :1:0 
+`uc 1 AN10 1 0 :1:1 
+`uc 1 AN8 1 0 :1:2 
+`uc 1 AN9 1 0 :1:3 
+`uc 1 AN11 1 0 :1:4 
+`uc 1 PGM 1 0 :1:5 
+`uc 1 PGC 1 0 :1:6 
+`uc 1 PGD 1 0 :1:7 
+]
+[s S133 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP2_PA2 1 0 :1:3 
+]
+[u S136 . 1 `S106 1 . 1 0 `S115 1 . 1 0 `S124 1 . 1 0 `S133 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES136  1 e 1 @3969 ]
+"872
+[v _LATA LATA `VEuc  1 e 1 @3977 ]
+[s S66 . 1 `uc 1 LATA0 1 0 :1:0 
+`uc 1 LATA1 1 0 :1:1 
+`uc 1 LATA2 1 0 :1:2 
+`uc 1 LATA3 1 0 :1:3 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+`uc 1 LATA6 1 0 :1:6 
+`uc 1 LATA7 1 0 :1:7 
+]
+"899
+[s S75 . 1 `uc 1 LA0 1 0 :1:0 
+`uc 1 LA1 1 0 :1:1 
+`uc 1 LA2 1 0 :1:2 
+`uc 1 LA3 1 0 :1:3 
+`uc 1 LA4 1 0 :1:4 
+`uc 1 LA5 1 0 :1:5 
+`uc 1 LA6 1 0 :1:6 
+`uc 1 LA7 1 0 :1:7 
+]
+[u S84 . 1 `S66 1 . 1 0 `S75 1 . 1 0 ]
+[v _LATAbits LATAbits `VES84  1 e 1 @3977 ]
+"983
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+"1205
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+[s S380 . 1 `uc 1 LATD0 1 0 :1:0 
+`uc 1 LATD1 1 0 :1:1 
+`uc 1 LATD2 1 0 :1:2 
+`uc 1 LATD3 1 0 :1:3 
+`uc 1 LATD4 1 0 :1:4 
+`uc 1 LATD5 1 0 :1:5 
+`uc 1 LATD6 1 0 :1:6 
+`uc 1 LATD7 1 0 :1:7 
+]
+"1232
+[s S389 . 1 `uc 1 LD0 1 0 :1:0 
+`uc 1 LD1 1 0 :1:1 
+`uc 1 LD2 1 0 :1:2 
+`uc 1 LD3 1 0 :1:3 
+`uc 1 LD4 1 0 :1:4 
+`uc 1 LD5 1 0 :1:5 
+`uc 1 LD6 1 0 :1:6 
+`uc 1 LD7 1 0 :1:7 
+]
+[u S398 . 1 `S380 1 . 1 0 `S389 1 . 1 0 ]
+[v _LATDbits LATDbits `VES398  1 e 1 @3980 ]
+"1316
+[v _LATE LATE `VEuc  1 e 1 @3981 ]
+[s S41 . 1 `uc 1 LATE0 1 0 :1:0 
+`uc 1 LATE1 1 0 :1:1 
+`uc 1 LATE2 1 0 :1:2 
+]
+"1333
+[s S45 . 1 `uc 1 LE0 1 0 :1:0 
+`uc 1 LE1 1 0 :1:1 
+`uc 1 LE2 1 0 :1:2 
+]
+[u S49 . 1 `S41 1 . 1 0 `S45 1 . 1 0 ]
+[v _LATEbits LATEbits `VES49  1 e 1 @3981 ]
+"1367
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"1588
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"1809
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"2030
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"2251
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+"4390
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"4474
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @4034 ]
+"4610
+[v _SSPCON2 SSPCON2 `VEuc  1 e 1 @4037 ]
+"4671
+[v _SSPCON1 SSPCON1 `VEuc  1 e 1 @4038 ]
+"4740
+[v _SSPSTAT SSPSTAT `VEuc  1 e 1 @4039 ]
+"4960
+[v _SSPADD SSPADD `VEuc  1 e 1 @4040 ]
+"4966
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @4041 ]
+"5705
+[v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
+[s S206 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"6298
+[s S215 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S224 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S228 . 1 `S206 1 . 1 0 `S215 1 . 1 0 `S224 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES228  1 e 1 @4082 ]
+"6604
+[v _ACKDT ACKDT `VEb  1 e 0 @32301 ]
+"6606
+[v _ACKEN ACKEN `VEb  1 e 0 @32300 ]
+"7220
+[v _PEN PEN `VEb  1 e 0 @32298 ]
+"7336
+[v _RCEN RCEN `VEb  1 e 0 @32299 ]
+"7382
+[v _RSEN RSEN `VEb  1 e 0 @32297 ]
+"7420
+[v _SEN SEN `VEb  1 e 0 @32296 ]
+"7638
+[v _TRISC3 TRISC3 `VEb  1 e 0 @31907 ]
+"7640
+[v _TRISC4 TRISC4 `VEb  1 e 0 @31908 ]
+"354 C:\Users\Andrew\Desktop\xc8\sources\common\doprnt.c
+[v _dpowers dpowers `C[5]ui  1 s 10 dpowers ]
+"362
+[v _hexpowers hexpowers `C[4]ui  1 s 8 hexpowers ]
+"256 C:\Users\Andrew\Desktop\AER201\project.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"501
+[v main@keypress_364 keypress `uc  1 a 1 55 ]
+"356
+[v main@currentMotor currentMotor `uc  1 a 1 105 ]
+"355
+[v main@keypress_348 keypress `uc  1 a 1 96 ]
+"325
+[v main@keypress keypress `uc  1 a 1 54 ]
+"279
+[v main@binsCount binsCount `[4]ui  1 a 8 97 ]
+"280
+[v main@finalTime finalTime `[2]uc  1 a 2 94 ]
+"295
+[v main@C3 C3 `[2]uc  1 a 2 86 ]
+"285
+[v main@C1 C1 `[2]uc  1 a 2 84 ]
+"298
+[v main@B3 B3 `[2]uc  1 a 2 68 ]
+"296
+[v main@R3 R3 `[2]uc  1 a 2 66 ]
+"293
+[v main@B2 B2 `[2]uc  1 a 2 64 ]
+"291
+[v main@R2 R2 `[2]uc  1 a 2 62 ]
+"290
+[v main@C2 C2 `[2]uc  1 a 2 60 ]
+"288
+[v main@B1 B1 `[2]uc  1 a 2 58 ]
+"286
+[v main@R1 R1 `[2]uc  1 a 2 56 ]
+"313
+[v main@tot1 tot1 `ui  1 a 2 92 ]
+"301
+[v main@b1 b1 `ui  1 a 2 90 ]
+"300
+[v main@r1 r1 `ui  1 a 2 88 ]
+"314
+[v main@tot2 tot2 `ui  1 a 2 82 ]
+"308
+[v main@c3 c3 `ui  1 a 2 80 ]
+"307
+[v main@b3 b3 `ui  1 a 2 78 ]
+"306
+[v main@r3 r3 `ui  1 a 2 76 ]
+"304
+[v main@b2 b2 `ui  1 a 2 74 ]
+"303
+[v main@r2 r2 `ui  1 a 2 72 ]
+"302
+[v main@c1 c1 `ui  1 a 2 70 ]
+"297
+[v main@G3 G3 `[2]uc  1 a 2 40 ]
+"292
+[v main@G2 G2 `[2]uc  1 a 2 38 ]
+"287
+[v main@G1 G1 `[2]uc  1 a 2 36 ]
+"498
+[v main@totalCount totalCount `us  1 a 2 52 ]
+"312
+[v main@bcap3 bcap3 `ui  1 a 2 50 ]
+"311
+[v main@bcap1 bcap1 `ui  1 a 2 48 ]
+"310
+[v main@rcap2 rcap2 `ui  1 a 2 46 ]
+"309
+[v main@rcap1 rcap1 `ui  1 a 2 44 ]
+"305
+[v main@c2 c2 `ui  1 a 2 42 ]
+"315
+[v main@tot3 tot3 `ui  1 a 2 34 ]
+"277
+[v main@F3227 F3227 `[4]ui  1 s 8 F3227 ]
+"551
+} 0
+"140
+[v _tca_select tca_select `(v  1 e 1 0 ]
+{
+[v tca_select@i i `uc  1 a 1 wreg ]
+[v tca_select@i i `uc  1 a 1 wreg ]
+[v tca_select@i i `uc  1 a 1 6 ]
+"145
+} 0
+"47
+[v _stop_rotate stop_rotate `(v  1 e 1 0 ]
+{
+"49
+} 0
+"20
+[v _set_time set_time `(v  1 e 1 0 ]
+{
+"24
+[v set_time@i i `uc  1 a 1 3 ]
+"28
+} 0
+"43
+[v _rotate rotate `(v  1 e 1 0 ]
+{
+"45
+} 0
+"96
+[v _return_motors return_motors `(v  1 e 1 0 ]
+{
+[v return_motors@motor motor `uc  1 a 1 wreg ]
+"116
+[v return_motors@i i `uc  1 a 1 3 ]
+"96
+[v return_motors@motor motor `uc  1 a 1 wreg ]
+"98
+[v return_motors@motor motor `uc  1 a 1 2 ]
+"120
+} 0
+"56
+[v _read_sensor read_sensor `(v  1 e 1 0 ]
+{
+[v read_sensor@r r `*.39uc  1 p 2 3 ]
+[v read_sensor@g g `*.39uc  1 p 2 5 ]
+[v read_sensor@b b `*.39uc  1 p 2 7 ]
+[v read_sensor@c c `*.39uc  1 p 2 9 ]
+"85
+} 0
+"464 C:\Users\Andrew\Desktop\xc8\sources\common\doprnt.c
+[v _printf printf `(i  1 e 2 0 ]
+{
+"1500
+[v printf@idx idx `uc  1 a 1 22 ]
+"501
+[v printf@width width `i  1 a 2 29 ]
+"528
+[v printf@val val `ui  1 a 2 26 ]
+"466
+[v printf@ap ap `[1]*.39v  1 a 2 23 ]
+"499
+[v printf@c c `c  1 a 1 31 ]
+"508
+[v printf@flag flag `uc  1 a 1 28 ]
+"506
+[v printf@prec prec `c  1 a 1 25 ]
+"464
+[v printf@f f `*.25Cuc  1 p 2 12 ]
+"1541
+} 0
+"30 C:\Users\Andrew\Desktop\AER201\project.X\lcd.c
+[v _putch putch `(v  1 e 1 0 ]
+{
+[v putch@data data `uc  1 a 1 wreg ]
+[v putch@data data `uc  1 a 1 wreg ]
+[v putch@data data `uc  1 a 1 2 ]
+"33
+} 0
+"8 C:\Users\Andrew\Desktop\xc8\sources\common\isdigit.c
+[v _isdigit isdigit `(b  1 e 0 0 ]
+{
+[v isdigit@c c `uc  1 a 1 wreg ]
+[v isdigit@c c `uc  1 a 1 wreg ]
+"14
+[v isdigit@c c `uc  1 a 1 2 ]
+"15
+} 0
+"15 C:\Users\Andrew\Desktop\xc8\sources\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"8 C:\Users\Andrew\Desktop\xc8\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwmod@counter counter `uc  1 a 1 11 ]
+"8
+[v ___lwmod@dividend dividend `ui  1 p 2 7 ]
+[v ___lwmod@divisor divisor `ui  1 p 2 9 ]
+"26
+} 0
+"8 C:\Users\Andrew\Desktop\xc8\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"11
+[v ___lwdiv@quotient quotient `ui  1 a 2 4 ]
+"12
+[v ___lwdiv@counter counter `uc  1 a 1 6 ]
+"8
+[v ___lwdiv@dividend dividend `ui  1 p 2 0 ]
+[v ___lwdiv@divisor divisor `ui  1 p 2 2 ]
+"31
+} 0
+"87 C:\Users\Andrew\Desktop\AER201\project.X\main.c
+[v _poweroff_sensor poweroff_sensor `(v  1 e 1 0 ]
+{
+"94
+} 0
+"14 C:\Users\Andrew\Desktop\AER201\project.X\lcd.c
+[v _initLCD initLCD `(v  1 e 1 0 ]
+{
+"23
+} 0
+"25
+[v _lcdInst lcdInst `(v  1 e 1 0 ]
+{
+[v lcdInst@data data `uc  1 a 1 wreg ]
+[v lcdInst@data data `uc  1 a 1 wreg ]
+[v lcdInst@data data `uc  1 a 1 2 ]
+"28
+} 0
+"35
+[v _lcdNibble lcdNibble `(v  1 e 1 0 ]
+{
+[v lcdNibble@data data `uc  1 a 1 wreg ]
+"39
+[v lcdNibble@temp temp `uc  1 a 1 0 ]
+"35
+[v lcdNibble@data data `uc  1 a 1 wreg ]
+"39
+[v lcdNibble@data data `uc  1 a 1 1 ]
+"63
+} 0
+"147 C:\Users\Andrew\Desktop\AER201\project.X\main.c
+[v _check_B_press check_B_press `(uc  1 e 1 0 ]
+{
+[v check_B_press@key key `uc  1 a 1 wreg ]
+[v check_B_press@key key `uc  1 a 1 wreg ]
+[v check_B_press@time time `*.39uc  1 p 2 5 ]
+[v check_B_press@key key `uc  1 a 1 8 ]
+"167
+} 0
+"122
+[v _timer_done timer_done `(v  1 e 1 0 ]
+{
+[v timer_done@time time `*.39uc  1 p 2 3 ]
+"138
+} 0
+"46 C:\Users\Andrew\Desktop\AER201\project.X\I2C.c
+[v _I2C_Master_Write I2C_Master_Write `(v  1 e 1 0 ]
+{
+[v I2C_Master_Write@d d `ui  1 p 2 1 ]
+"50
+} 0
+"40
+[v _I2C_Master_Stop I2C_Master_Stop `(v  1 e 1 0 ]
+{
+"44
+} 0
+"28
+[v _I2C_Master_Start I2C_Master_Start `(i  1 e 2 0 ]
+{
+"32
+} 0
+"52
+[v _I2C_Master_Read I2C_Master_Read `(uc  1 e 1 0 ]
+{
+[v I2C_Master_Read@a a `uc  1 a 1 wreg ]
+"54
+[v I2C_Master_Read@temp temp `uc  1 a 1 2 ]
+"52
+[v I2C_Master_Read@a a `uc  1 a 1 wreg ]
+"55
+[v I2C_Master_Read@a a `uc  1 a 1 1 ]
+"63
+} 0
+"23
+[v _I2C_Master_Wait I2C_Master_Wait `(v  1 e 1 0 ]
+{
+"26
+} 0
+"51 C:\Users\Andrew\Desktop\AER201\project.X\main.c
+[v _agitator_move agitator_move `(v  1 e 1 0 ]
+{
+[v agitator_move@a a `v  1 a 1 wreg ]
+[v agitator_move@a a `v  1 a 1 wreg ]
+[v agitator_move@b b `v  1 p 1 0 ]
+[v agitator_move@a a `v  1 a 1 1 ]
+"54
+} 0
+"30
+[v _activate_stepper activate_stepper `(v  1 e 1 0 ]
+{
+[v activate_stepper@motor motor `uc  1 a 1 wreg ]
+"36
+[v activate_stepper@i i `uc  1 a 1 3 ]
+"30
+[v activate_stepper@motor motor `uc  1 a 1 wreg ]
+[v activate_stepper@motor motor `uc  1 a 1 2 ]
+"41
+} 0
+"28 C:\Users\Andrew\Desktop\xc8\sources\common\lwtoft.c
+[v ___lwtoft __lwtoft `(f  1 e 3 0 ]
+{
+[v ___lwtoft@c c `ui  1 p 2 8 ]
+"31
+} 0
+"62 C:\Users\Andrew\Desktop\xc8\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+{
+[v ___ftpack@arg arg `um  1 p 3 0 ]
+[v ___ftpack@exp exp `uc  1 p 1 3 ]
+[v ___ftpack@sign sign `uc  1 p 1 4 ]
+"86
+} 0
+"4 C:\Users\Andrew\Desktop\xc8\sources\common\ftge.c
+[v ___ftge __ftge `(b  1 e 0 0 ]
+{
+[v ___ftge@ff1 ff1 `f  1 p 3 11 ]
+[v ___ftge@ff2 ff2 `f  1 p 3 14 ]
+"13
+} 0
+"12 C:\Users\Andrew\Desktop\AER201\project.X\I2C.c
+[v _I2C_Master_Init I2C_Master_Init `(v  1 e 1 0 ]
+{
+[v I2C_Master_Init@c c `Cul  1 p 4 13 ]
+"21
+} 0
+"8 C:\Users\Andrew\Desktop\xc8\sources\common\lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+{
+"11
+[v ___lldiv@quotient quotient `ul  1 a 4 8 ]
+"12
+[v ___lldiv@counter counter `uc  1 a 1 12 ]
+"8
+[v ___lldiv@dividend dividend `ul  1 p 4 0 ]
+[v ___lldiv@divisor divisor `ul  1 p 4 4 ]
+"31
+} 0

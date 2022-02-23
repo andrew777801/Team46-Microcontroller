@@ -1,0 +1,1 @@
+ dist/default/production/doprnt.d  dist/default/production/doprnt.p1:  C:/Users/Andrew/Desktop/xc8/sources/common/doprnt.c
